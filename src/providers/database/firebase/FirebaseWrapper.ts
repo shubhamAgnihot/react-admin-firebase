@@ -30,7 +30,7 @@ export class FirebaseWrapper implements IFirebaseWrapper {
   }
 }
 
-function ObtainFirebaseApp(firebaseConfig: {}, options: RAFirebaseOptions) {
+function ObtainFirebaseApp(firebaseConfig: { }, options: RAFirebaseOptions) {
   if (options.app) {
     return options.app;
   }
